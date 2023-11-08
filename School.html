@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>University Website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,100;1,300;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    </head> 
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png.jpg" alt="not found" class="resized-image"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">COURSES</a></li>
+                        <li><a href="">BLOG</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>  
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="Text-box">
+                <h1>Federal University of Technology Akure</h1>
+                <p> We offer a lot of Technological Courses and or students are sure to excel, we produce the best graduates in the country.<br> Over here, learning is made very easy and honour is our watchword</p>
+                <a href="" class="my-button">Visit us to know more</a>
+
+            </div>
+
+        </section> 
+ 
+<!----- For course------>
+<section class="course">
+    <h1>Courses We Offer</h1>
+    <p>We offer a lot of Technological Courses and or students are sure to excel and honour is our watchword</p>
+    <div class="row">
+        <div class="course-column">
+            <h3>Intermediate</h3>
+            <p>We give praise to the holu pne for the brith if our reat
+            school, ade coll of educations jbw qe  seconmdaryo wehb</p>
+        </div>
+        <div class="course-column">
+            <h3>Degree</h3>
+            <p>We give praise to the holu pne for the brith if our reat
+            school, ade coll of educations jbw qe  seconmdaryo wehb</p>
+        </div>
+        <div class="course-column">
+            <h3>Post Graduate</h3> 
+            <p>We give praise to the holu pne for the brith if our reat
+            school, ade coll of educations jbw qe  seconmdaryo wehb</p>
+        </div>
+
+    </div>
+</section>
+
+<!---Campus-->
+<section class="campus">
+    <h1>Our Global Campus</h1>
+    <p>We offer a lot of Technological Courses and or students are sure to excel and honour is our watchword</p>
+
+    <div class="row">
+        <div class="campus-column">
+            <img src="images/lagos.png.jpg">
+            <div class="layer">
+                <h3>LAGOS</h3>
+            </div>
+        </div>
+        <div class="campus-column">
+            <img src="images/banner.png.jpg">
+            <div class="layer">
+                <h3>ABUJA</h3>
+            </div>
+        </div>
+        <div class="campus-column">
+            <img src="images/abuja.png.jpg">
+            <div class="layer">
+                <h3>IBADAN</h3>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!---facilities-->
+<section class="Facilities">
+    <h1>Our Facilities</h1>
+    <p>These are the things that you get to enjoy in our prestigeous University</p>
+    <div class="row">
+        <div class="Facilities-column">
+            <img src="images/computer.jpg">
+            <h3>World class Computer Centre</h3> 
+            <p> This Computer centre features Latest applications, wifi and stable electricity, This provides our students with the avenue to use the internet whenever they please</p>
+        </div>
+        <div class="Facilities-column">
+            <img src="images/library.jpg">
+            <h3>World class Library</h3> 
+            <p> This Computer centre features Latest applications, wifi and stable electricity, This provides our students with the avenue to use the internet whenever they please</p>
+        </div>
+        <div class="Facilities-column">
+            <img src="images/cafe.jpg">
+            <h3>Fun Cafe</h3> 
+            <p> This Computer centre features Latest applications, wifi and stable electricity, This provides our students with the avenue to use the internet whenever they please</p>
+        </div>
+        <div class="Facilities-column">
+            <img src="images/pool.jpg">
+            <h3>State of the art pool</h3> 
+            <p> This Computer centre features Latest applications, wifi and stable electricity, This provides our students with the avenue to use the internet whenever they please</p>
+        </div>
+        <div class="Facilities-column">
+            <img src="images/gym.jpg">
+            <h3>State of the art Gym </h3> 
+            <p> This Computer centre features Latest applications, wifi and stable electricity, This provides our students with the avenue to use the internet whenever they please</p>
+        </div>
+    </div>
+
+</section>
+
+<!-----Testimonials-->
+
+<section class="testimonials">
+    <h1>What Our Students say</h1>
+    <p>We appreciate our teachers for their efforts </p>
+</section>
+
+<!--------Javascript for Toggle Menu-->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+
+
+    </body>
+</html>
